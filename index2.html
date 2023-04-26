@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="calculadora">
+      <input type="text" id="resultado" placeholder="0" />
+      <br />
+      <button class="botao numero" id="sete" onclick="adicionarNumero('7')">
+        7
+      </button>
+      <button class="botao numero" id="oito" onclick="adicionarNumero('8')">
+        8
+      </button>
+      <button class="botao numero" id="nove" onclick="adicionarNumero('9')">
+        9
+      </button>
+      <button class="botao operacao" id="divisao" onclick="operacao('/')">
+        /
+      </button>
+      <br />
+      <button class="botao numero" id="quatro" onclick="adicionarNumero('4')">
+        4
+      </button>
+      <button class="botao numero" id="cinco" onclick="adicionarNumero('5')">
+        5
+      </button>
+      <button class="botao numero" id="seis" onclick="adicionarNumero('6')">
+        6
+      </button>
+      <button class="botao operacao" id="multiplicacao" onclick="operacao('*')">
+        *
+      </button>
+      <br />
+      <button class="botao numero" id="um" onclick="adicionarNumero('1')">
+        1
+      </button>
+      <button class="botao numero" id="dois" onclick="adicionarNumero('2')">
+        2
+      </button>
+      <button class="botao numero" id="tres" onclick="adicionarNumero('3')">
+        3
+      </button>
+      <button class="botao operacao" id="subtracao" onclick="operacao('-')">
+        -
+      </button>
+      <br />
+      <button class="botao" id="limpar" onclick="limpar()">C</button>
+      <button class="botao numero" id="zero" onclick="adicionarNumero('0')">
+        0
+      </button>
+      <button class="botao" id="igual" onclick="calcular()">=</button>
+      <button class="botao operacao" id="soma" onclick="operacao('+')">
+        +
+      </button>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
